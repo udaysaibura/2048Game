@@ -1,17 +1,4 @@
 import java.util.*;
-
-/**
- * Game2048.java
- *
- * Console 2048 implementation.
- * Controls: w = up, s = down, a = left, d = right, q = quit
- *
- * Single-file program. Compile and run:
- *   javac Game2048.java
- *   java Game2048
- */
-
-
 public class Game2048 {
     private static final int SIZE = 4;
     private final int[][] board = new int[SIZE][SIZE];
@@ -193,4 +180,5 @@ public class Game2048 {
     private void sleep(int ms) {
         try { Thread.sleep(ms); } catch (InterruptedException ignored) {}
     }
+
 }
